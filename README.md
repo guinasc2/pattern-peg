@@ -5,7 +5,7 @@
 *This project is part of my master's studies and is therefore still experimental 
 in nature, intended primarily for educational and research purposes.*
 
-*This repository is separate, intended to be used in the Compilers course.*
+*This repository is a separate one, intended to be used in the Compilers course.*
 
 ---
 
