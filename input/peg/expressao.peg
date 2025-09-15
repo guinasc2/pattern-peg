@@ -1,0 +1,7 @@
+-- This PEG parses a simple expression
+-- The ^ operator is used to concatenate all the leafs into a single string, producing a single number
+
+E <- T ("+" T)*
+T <- F ("*" F)* 
+F <- n / "(" E ")"
+^n <- [0-9]+
